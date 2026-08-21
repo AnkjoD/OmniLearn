@@ -14,6 +14,8 @@ import Community from './pages/Community';
 import Goals from './pages/Goals';
 import Pomodoro from './pages/Pomodoro';
 
+import AiChatbot from './pages/AiChatbot';
+
 export default function App() {
   const themeMode = useSelector((s) => s.ui?.themeMode || 'light');
   const theme = themeMode === 'dark' ? darkTheme : lightTheme;
@@ -31,6 +33,7 @@ export default function App() {
           <Route path="/pomodoro"   element={<Pomodoro />} />
           <Route path="/groups"     element={<Groups />} />
           <Route path="/community"  element={<Community />} />
+          <Route path="/chatbot"    element={<AiChatbot />} />
           <Route path="/goals"      element={<Goals />} />
         </Routes>
       </AppLayout>

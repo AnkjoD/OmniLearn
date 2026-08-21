@@ -10,6 +10,7 @@ import QuizRoundedIcon from '@mui/icons-material/QuizRounded';
 import CalendarMonthRoundedIcon from '@mui/icons-material/CalendarMonthRounded';
 import GroupsRoundedIcon from '@mui/icons-material/GroupsRounded';
 import ForumRoundedIcon from '@mui/icons-material/ForumRounded';
+import SmartToyRoundedIcon from '@mui/icons-material/SmartToyRounded';
 import EmojiEventsRoundedIcon from '@mui/icons-material/EmojiEventsRounded';
 import TimerRoundedIcon from '@mui/icons-material/TimerRounded';
 import AdminPanelSettingsRoundedIcon from '@mui/icons-material/AdminPanelSettingsRounded';
@@ -25,6 +26,7 @@ const NAV_ITEMS = [
   { label: 'Pomodoro',         icon: <TimerRoundedIcon />,          path: '/pomodoro' },
   { label: 'Nhóm học',         icon: <GroupsRoundedIcon />,         path: '/groups' },
   { label: 'Cộng đồng',        icon: <ForumRoundedIcon />,          path: '/community' },
+  { label: 'AI Chatbot',       icon: <SmartToyRoundedIcon />,       path: '/chatbot' },
   { label: 'Mục tiêu',         icon: <EmojiEventsRoundedIcon />,    path: '/goals' },
 ];
 
