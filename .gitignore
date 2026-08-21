@@ -1,0 +1,17 @@
+# Bỏ qua các thư mục không muốn đẩy lên Git
+.agents/
+.agent/
+admin/
+backend/
+
+# Bỏ qua các file script lẻ nãy giờ tạo
+*.mjs
+*.js
+*.sql
+
+# Gitignore tiêu chuẩn cho frontend (để không đẩy file nặng)
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+.DS_Store
